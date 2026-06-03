@@ -1,0 +1,29 @@
+1.上传文件
+
+记住push文件时，用户名为邮箱；密码为申请的token
+
+mkdir warehouse
+cd warehouse
+git init (在要上传文件那里init就行)
+touch read.md
+git add read.md
+(git add .) 把全部文件都添加进去
+git commit -m "first commit"
+git remote add origin https://
+git push -u origin "master" ($ git remote remove origin)
+
+2.解决报错：recv failure connection was res
+git config --global --unset http.proxy 
+git config --global --unset https.proxy
+
+3.设置用户：
+# 设置用户名
+git config --global user.name "xiaoli"
+# 设置邮箱
+git config --global user.email "3339059430@qq.com"
+
+4.·更新文件
+
+git add .
+git commit -m "second commit"
+git push 
