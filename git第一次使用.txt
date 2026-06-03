@@ -40,3 +40,8 @@ git checkout 分支名 //分支切换
 git merge 分支名 --no-ff  //在master进行
 git push //在master进行 
 git branch -d branchNam //删除分支
+
+6.查看历史版本并恢复
+git log --oneline
+git checkout -b old_version 版本哈希
+git push -u origin old_version
