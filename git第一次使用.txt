@@ -30,3 +30,13 @@ git push
 
 5.下载文件到本地
 git clone https://
+
+6.创建branch
+git branch -a    //查看有哪些分支
+git checkout -b branchNameHere    //创建分支
+git checkout 分支名 //分支切换
+前面文件去缓存都一样，关联仓库时，git push -u origin "分支名"
+
+git merge 分支名 --no-ff  //在master进行
+git push //在master进行 
+git branch -d branchNam //删除分支
