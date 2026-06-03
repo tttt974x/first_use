@@ -45,3 +45,6 @@ git branch -d branchNam //删除分支
 git log --oneline
 git checkout -b old_version 版本哈希
 git push -u origin old_version
+
+7.更新github上的代码到本地
+git pull origin master
