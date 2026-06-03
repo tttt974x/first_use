@@ -27,3 +27,6 @@ git config --global user.email "3339059430@qq.com"
 git add .
 git commit -m "second commit"
 git push 
+
+5.下载文件到本地
+git clone https://
